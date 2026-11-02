@@ -1,0 +1,55 @@
+{
+  "note": "All five companies are fictional demo businesses made up for this app.",
+  "floors": [
+    {
+      "id": "tidewatch",
+      "number": 1,
+      "name": "Tidewatch Surf Notes",
+      "color": "#2f9bd1",
+      "tagline": "A weekly beach-cafe board: what the sea is doing and what to put on the menu.",
+      "brief": "Tidewatch Surf Notes writes one weekly board for a small beach cafe: expected swell and tide windows in plain words, plus two menu specials that suit the weather. The owner is a former lifeguard who wants it friendly, short, and never a safety guarantee.",
+      "task": "Write this week's board for a week with a long, gentle swell and low tide at midday.",
+      "ownerRole": "Owner: ex-lifeguard, approves anything that sounds like safety advice."
+    },
+    {
+      "id": "stitchwise",
+      "number": 2,
+      "name": "Stitchwise Repairs",
+      "color": "#c2536a",
+      "tagline": "Mending guides and quotes for people who would rather fix than replace.",
+      "brief": "Stitchwise Repairs is a one-person clothing repair shop. Agents draft care and mending guides and reply to quote requests from the owner's own price list: patch 12, hem 9, zip 18 (currency units per item). The owner decides on exceptions and rush jobs.",
+      "task": "Reply to a customer who asks what it costs to fix a torn jacket zip and a frayed hem, and when it could be ready.",
+      "ownerRole": "Owner: tailor, approves any price outside the list."
+    },
+    {
+      "id": "kimchi",
+      "number": 3,
+      "name": "Kimchi Club",
+      "color": "#d9482b",
+      "tagline": "A monthly newsletter for people learning to ferment at home.",
+      "brief": "Kimchi Club sends one newsletter a month to home fermenters: one recipe idea, one troubleshooting tip, and one reader question answered. The owner is a home cook who wants a warm, practical tone and no medical claims.",
+      "task": "Write the newsletter for a month where readers keep asking why their jar smells too sour.",
+      "ownerRole": "Owner: home cook, approves anything about food safety."
+    },
+    {
+      "id": "lantern",
+      "number": 4,
+      "name": "Lantern Tutors",
+      "color": "#e0a526",
+      "tagline": "Short lesson plans for tutors who teach evening classes.",
+      "brief": "Lantern Tutors writes 30-minute lesson plans for volunteer tutors who teach adults basic maths in the evening. Plans must be concrete: warm-up, one worked example, two practice questions, a closing check. The owner is a retired teacher.",
+      "task": "Write a lesson plan for percentages, for adults who are nervous about maths.",
+      "ownerRole": "Owner: retired teacher, approves the level and the examples."
+    },
+    {
+      "id": "nightowl",
+      "number": 5,
+      "name": "Night Owl Bakery",
+      "color": "#7c5cbf",
+      "tagline": "Pre-orders and a daily post for a bakery that opens after midnight.",
+      "brief": "Night Owl Bakery bakes between midnight and dawn for shift workers. Agents turn the day's pre-orders into a bake list and write the day's short social post. The owner decides what to cap when ingredients run low.",
+      "task": "Turn these pre-orders into a bake list and a short post: 14 sourdough, 9 cardamom buns, 6 rye, flour for about 30 loaves.",
+      "ownerRole": "Owner: head baker, decides what to cap when flour is short."
+    }
+  ]
+}
