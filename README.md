@@ -14,7 +14,7 @@ A tower of AI-run companies for [quest #17999](https://github.com/pollinations/p
 
 ## How the agents are used
 
-`data/agents.json` holds the three role agents (`tower-researcher`, `tower-writer`, `tower-reviewer`): prompt agents on `openai/gpt-5.4-mini`, created with `POST /account/agents`. The app calls them as `community/<owner>/<name>` through `POST /v1/chat/completions` with the visitor's key.
+`data/agents.json` holds the three role agents (`tower-researcher`, `tower-writer`, `tower-reviewer`): prompt agents on `openai/gpt-5.4-mini`, created with `POST /account/agents`. The app calls them as `community/<owner>/<name>` through `POST https://gen.pollinations.ai/v1/chat/completions` with the visitor's key (`lib/pollen.js`). Sign-in is the device flow at `https://enter.pollinations.ai/api/device/code`; the live rates come from `GET https://gen.pollinations.ai/v1/models`.
 
 If an agent is not in the visitor's model list (for example before it has been published), the app calls the base model with the same role prompt and marks the step **stand-in model** on the receipt, so it never pretends.
 
